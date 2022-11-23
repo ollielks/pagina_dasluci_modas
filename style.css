@@ -1,0 +1,11 @@
+header {
+    background-color: rgb(51, 102, 255)
+}
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+.imagem_titulo {
+    position:relative;
+}
