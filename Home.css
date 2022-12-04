@@ -1,0 +1,37 @@
+
+.sobre {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+#link_galeria {
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: black;
+
+}
+#link_galeria:hover {
+    color: rgb(7, 114, 255);
+    text-decoration: underline;
+}
+.sobre_texto {
+    text-align: center;
+    font-size: 20px;
+}
+#onde_estamos {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+#loc {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }

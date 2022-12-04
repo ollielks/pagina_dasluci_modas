@@ -4,37 +4,58 @@
     <meta charset="UTF-8">
     <title>DasLuci - Home</title>
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Calligraffitti" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="/Outros/Pagina DasLuci/maps_api.js"></script>
 </head>
 <body>
     <header>
+    </html>
     <div class="caixa">
         <h1 class="titulo">
-            <img src="imagens/cabeçalho.png" alt="" class="imagem_titulo">
-            Das Luci moda plus size
+            <img src="imagens/Logo_branco.png" alt="" class="imagem_titulo">
+            <p>DasLuci moda plus size</p>
         </h1>
+        <nav> 
+            <ul>
+                <li><a href="index.hmtl">Home</a></li> 
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav> 
-        <ul>
-            <li><a href="index.hmtl"></a></li> 
-            <li><a href="galeria.html"></a></li>
-            <li><a href="contato.html"></a></li>
-        </ul>
-    </nav>
-    </div>
 
+    </div>
+    <div class="texto_principal">
         <h2 class="sobre">Sobre nós</h2>
                 <br>
+            <p class="sobre_texto">Acesse a página<a href="galeria.html" id="link_galeria"> galeria</a> para ver alguns de nossos produtos</p>
             <p class="sobre_texto">TEXTO BASE</p>
             <p class="sobre_texto">TEXTO BASE</p>
-            <p class="sobre_texto">TEXTO BASE</p>
-                <br>
+            <br>
+            <h3 id="onde_estamos">Onde Estamos</h3>
+            <p id="loc">A loja DasLuci plus size está localizada dentro da galeria vitória na loja número 13</p>
+            <br>
+            <div id="map"></div>
+            <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkirKcHkhjgMASHFK79HjuFnL0JclsKFA&callback=initMap&v=weekly"
+            defer
+          ></script>
+       
+ 
+    </div>
+    <div class="rodape"> 
+        <footer>
+            <h4>Siga nosso Instagram para novidades</h4>
+            <ul>
+                <li><img src="imagens/Icone_instagram.png" id="logo_instagram" alt="imagens/Icone_instagram.png"><a href="https://www.instagram.com/daslu_ciplusize/">Instagram</a></li>
+                <li><img src="imagens/Icone_whatsapp.png" id="logo_whatsapp" alt="imagens/Icone_whatsapp.png"><a href="https://whats.link/bellymodas014">Contato Whatsapp</a></li>
+            </ul>
+            <p class="copyright">&copy; Copyright DasLuci Moda Plus Size 2022</p>
+        </footer>  
+    </div>
 
-    
-
-
-
-    
-    
 </body>
 </html>

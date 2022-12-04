@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+nav {
+    font-family: Calligraffitti;
+}
+header {
+    padding-bottom: 10px;
+}
+.galeria {
+padding-top: 20px;
+text-align: center;
+text-transform: capitalize;
+font-weight: bold;
+font-size: 22px;
+font-family: Calligraffitti;
+}
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    left: 675px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.roupas {
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
